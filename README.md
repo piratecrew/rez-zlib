@@ -5,4 +5,3 @@ Rez Package for zlib
 
 Build status id for versions:
   - 1.2.11
-  - 1.1.4
