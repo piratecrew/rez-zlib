@@ -9,4 +9,5 @@ authors = ['fredrik.brannbacka']
 def commands():
     env.LD_LIBRARY_PATH.prepend("{root}/lib")
     if building:
+        env.ZLIB_ROOT.set("{root}")
         env.CMAKE_MODULE_PATH.append("{root}/cmake")
